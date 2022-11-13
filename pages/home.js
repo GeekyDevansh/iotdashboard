@@ -220,7 +220,7 @@ export default function home() {
   return (
     <>
       {/* <h4 className="flex justify-center text-3xl font-bold p-10" >Hostels</h4> */}
-      <div className="md:grid md:grid-cols-2 mx-28 my-12 ">
+      <div className="md:grid md:grid-cols-2 md:mx-28 md:my-12 ">
         <div className="md:p-10 p-2">
           <h4>Boys Hostel</h4>
           <Bar
