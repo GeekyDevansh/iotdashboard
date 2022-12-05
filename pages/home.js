@@ -47,7 +47,7 @@ export default function home() {
     ],
   });
   const [dpData, setdpData] = useState({
-    labels: ["CSE", "IT", "ECE", "EE", "ICE", "IPE"],
+    labels: ["CSE", "IT", "ECE", "EE", "ICE", "IPE", "ME", "CE", "CHE", "BT", "TT"],
     datasets: [
       {
         label: "Tank1",
@@ -58,29 +58,29 @@ export default function home() {
       },
       {
         label: "Tank2",
-        data: [7, 8, 9, 10, 11, 12],
+        data: [7, 8, 9, 10, 11, 12,13,14,15,16,17],
         backgroundColor: "red",
         borderColor: "orange",
         borderWidth: 1,
       },
       {
         label: "Tank3",
-        data: [13, 14, 15, 16, 17, 18],
+        data: [18,19,20,21,22,23,24,25,26,27,28],
         backgroundColor: "green",
       },
       {
         label: "Tank4",
-        data: [19, 20, 21, 22, 23, 24],
+        data: [29,30,31,32,33,34,35,36,37,38,39],
         backgroundColor: "blue",
       },
       {
         label: "Tank5",
-        data: [25, 26, 27, 28, 29, 30],
+        data: [40,41,42,43,44,45,46,47,48,49,50],
         backgroundColor: "yellow",
       },
       {
         label: "Tank6",
-        data: [0, 0, 26, 0, 0, 0],
+        data: [51,52,53,54,55,56,57,58,59,60,61],
         backgroundColor: "brown",
       },
     ],
@@ -93,7 +93,6 @@ export default function home() {
       "Residence-3",
       "Residence-4",
       "Residence-5",
-      "Residence-6",
     ],
     datasets: [
       {
@@ -105,29 +104,29 @@ export default function home() {
       },
       {
         label: "Tank2",
-        data: [7, 8, 9, 10, 11, 12],
+        data: [7, 8, 9, 10, 11],
         backgroundColor: "red",
         borderColor: "orange",
         borderWidth: 1,
       },
       {
         label: "Tank3",
-        data: [13, 14, 15, 16, 17, 18],
+        data: [13, 14, 15, 16, 17],
         backgroundColor: "green",
       },
       {
         label: "Tank4",
-        data: [19, 20, 21, 22, 23, 24],
+        data: [19, 20, 21, 22, 23],
         backgroundColor: "blue",
       },
       {
         label: "Tank5",
-        data: [25, 26, 27, 28, 29, 30],
+        data: [25, 26, 27, 28, 29],
         backgroundColor: "yellow",
       },
       {
         label: "Tank6",
-        data: [0, 0, 26, 0, 0, 0],
+        data: [0, 0, 26, 0, 0],
         backgroundColor: "brown",
       },
     ],
@@ -139,7 +138,6 @@ export default function home() {
       "Admin Building-3",
       "Admin Building-4",
       "Admin Building-5",
-      "Admin Building-6",
     ],
     datasets: [
       {
@@ -151,29 +149,29 @@ export default function home() {
       },
       {
         label: "Tank2",
-        data: [7, 8, 9, 10, 11, 12],
+        data: [7, 8, 9, 10, 11],
         backgroundColor: "red",
         borderColor: "orange",
         borderWidth: 1,
       },
       {
         label: "Tank3",
-        data: [13, 14, 15, 16, 17, 18],
+        data: [13, 14, 15, 16, 17],
         backgroundColor: "green",
       },
       {
         label: "Tank4",
-        data: [19, 20, 21, 22, 23, 24],
+        data: [19, 20, 21, 22, 23],
         backgroundColor: "blue",
       },
       {
         label: "Tank5",
-        data: [25, 26, 27, 28, 29, 30],
+        data: [25, 26, 27, 28, 29],
         backgroundColor: "yellow",
       },
       {
         label: "Tank6",
-        data: [0, 0, 26, 0, 0, 0],
+        data: [0, 0, 26, 0, ],
         backgroundColor: "brown",
       },
     ],
@@ -197,25 +195,22 @@ export default function home() {
         backgroundColor: "green",
       },
       {
-        label: "Tank3",
+        label: "Tank4",
         data: [161, 171, 181],
         backgroundColor: "blue",
       },
       {
-        label: "Tank4",
+        label: "Tank5",
         data: [191, 201, 211],
         backgroundColor: "yellow",
       },
       {
-        label: "Tank5",
+        label: "Tank6",
         data: [221, 231, 241],
         backgroundColor: "brown",
       },
     ],
   });
-
-  // const data = axios.get('https://iotwaterlevel.onrender.com/tank');
-  
 
   return (
     <>
